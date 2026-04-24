@@ -8,20 +8,14 @@ Project Feed is an incremental action simulation where you navigate a food chain
     * [Table of Contents](#table-of-contents)
     * [High Level Vision](#high-level-vision)
     * [Aesthetics](#aesthetics)
-        + [Sensation](#sensation)
-        + [Fantasy](#fantasy)
-        + [Submission](#submission)
     * [Art Style / Theme](#art-style--theme)
-        + [Rendering Style](#rendering-style)
-        + [Environments](#environments)
-        + [Characters](#characters)
-        + [Camera View](#camera-view)
-        + [User Interface Style](#user-interface-style)
     * [Story](#story)
+    * [Storyboard](#storyboard)
     * [Core Loop](#core-loop)
     * [Screens, UI, UX](#screens-ui-ux)
     * [Level Schema and Sample Level Design](#level-schema-and-sample-level-design)
     * [Game Economy](#game-economy)
+    * [Asset List](#asset-list)
     * [Development Pipeline](#development-pipeline)
     * [Team and Budget](#team-and-budget)
     * [Schedule](#schedule)
@@ -30,11 +24,10 @@ Project Feed is an incremental action simulation where you navigate a food chain
 
 ## High Level Vision
 
-- A pixel top-down stylized game inspired by Feeding Frenzy and Katamari Damacy with some elements from Vampire Survivors.
+- A pixel top-down stylized game inspired by Feeding Frenzy, Katamari Damacy and Dingo Games with some elements from Vampire Survivors.
 - A game of exponential consumption, predatory evolution, and recursive scale.
 - Main platform is PC with mobile port in consideration for the future.
 - Business model for this game will be a one time purchase to play forever with optional cosmetic skins for main character.
-- Similar games made by [Dingo Games](https://store.steampowered.com/developer/dingogames).
 
 ## Aesthetics
 
@@ -78,15 +71,26 @@ Alien-like entity that grow whenever it consumes.
 
 ### User Interface Style
 
-Style will be minimalistic to increase player immersion and direct focus onto the game world.  
+UI style will be minimalistic to increase player immersion and direct focus onto the game world.  
 <img src="./Media/hollow-knight-boss.jpg" width="50%"><img src="./Media/a-short-hike-interaction.png" width="50%">
-
 
 ## Story
 
 A spore from outer space drops onto earth. Upon landing, it hatches into a microscopic alien entity. Play as this entity and eat other organisms to grow bigger. Eventually big enough to consume Earth and start releasing spores back out to space, starting the life cycle once again.  
 
+## Storyboard
+
+**TBD**
+<!-- <img src="./Media/storyboard1.png" width="100%">
+<img src="./Media/storyboard2.png" width="100%">
+<img src="./Media/storyboard3.png" width="100%">
+<img src="./Media/storyboard4.png" width="100%">
+<img src="./Media/storyboard5.png" width="100%">
+<img src="./Media/storyboard6.png" width="100%"> -->
+
 ## Core Loop
+
+<img src="./Media/core_loop.png" width="100%">
 
 ## Screens, UI, UX
 
@@ -99,11 +103,103 @@ font, colors, layout, animations, interactions
 
 ## Level Schema and Sample Level Design
 
+**TBD**  
+Levels will be procedurally generated.
+
 ## Game Economy
+
+Optional costmetic DLC and soundtrack.
+
+| DLC    | Cost (USD) |
+| :----: | :---: |
+| Skin 1 | $2.99 |
+| Skin 2 | $2.99 |
+| Skin 3 | $2.99 |
+| OST    | $9.99 |
+
+## Asset List
+
+### Main character
+| Category | Asset | Description |
+| :----: | :---: | :---- |
+| Model | Monster | Main character model with animations |
+| Sound | Munch | SFX for eating very small organisms |
+| Sound | Crunch | SFX for eating smaller organisms |
+| Sound | Chomp | SFX for eating slightly smaller organisms |
+| Sound | Hit | SFX for  |
+| Sound | Bone Break | Occasional SFX for eating humans/animals |
+| Sound | Wood Break | SFX for eating trees or wooden objects/structures |
+| Sound | Concrete Break | SFX for eating buildings |
+| Sound | Metal Break | SFX for eating cars, military vehicles, other other metal objects |
+
+### Microscopic Environment
+| Category | Asset | Description |
+| :----: | :---: | :---- |
+| Background | Microscopic Background | Something to visualize the space. Possibly a solid background color or a leaf under a microscope |
+| Model | Acanthamoeba | Looks like a slime. Size is ~12-40μm |
+| Model | Bdelloid rotifer | Animal with chainsaw-like mouth. Size is ~150 to 700μm |
+| Sound | Rotifer Sound | Chainsaw-like SFX in water |
+| Model | Water flea | Looks like a flea. Size is ~1-5mm |
+| Sound | Water flea Strike | A kicking motion SFX to pull food into mouth |
+
+### Pond Environment
+| Category | Asset | Description |
+| :----: | :---: | :---- |
+| Background | Freshwater Background | Dark blue background to mimic a pond |
+| Terrain | Freshwater Environment | Watery environment on the surface |
+| Sound | Water Droplet | General SFX for movement in water with some variation |
+| Model | Mosquito Larvae | Neutral animal. Size is about ~1 to 1.5cm |
+| Model | Tadpole | Neutral animal. Size is about ~1 to 5cm |
+| Model | Mosquito Fish | Preys on mosquito larvae. Size is about ~2.5 to 7cm
+| Model | Giant Water Bug | Size is about ~5 to 7.5cm |
+| Sound | Giant Water Bug Strike | SFX for Giant Water Bug attack with front limbs |
+| Model | Frog | Size is about ~6cm to 13cm |
+| Model | Channel Catfish | Biggest monster of the pond. Size is about ~30 to 60cm |
+
+### Forest Environment
+**TBD**
+| Category | Asset | Description |
+| :----: | :---: | :---- |
+| Model |  |  |
+
+### City Environment
+**TBD**
+| Category | Asset | Description |
+| :----: | :---: | :---- |
+| Model | News Helicopter | Follows the monster around |
+| Sound | Helicopter Blades | SFX for spinning helicoptor blades |
+| Sound | News Broadcast | News broadcast chatter or noise |
+
+### Continental Environment
+**TBD**
+| Category | Asset | Description |
+| :----: | :---: | :---- |
+| Terrain | Mountain | Mountains with variants |
+| Model | B2 Bomber | Nuclear bomber |
+| Sound | Nuclear Drop | SFX of a dropping nuke |
+| Sound | Nuclear Explosion SFX | Boom
+
+### Shaders
+| Category | Asset | Description |
+| :----: | :---: | :---- |
+| Shader | Multi-band Cel Shader | "Toon" shading for standard objects |
+| Shader | Outline Shader | Dark outline applied to all objects at Unity's render level |
+| Shader | Resolution Downsampling | Post render step to create pixel effect without impacting UI |
+
+### Music
+| Category | Asset | Description |
+| :----: | :---: | :---- |
+| Sound | BGM1 | OST for microscopic scale |
+| Sound | BGM2 | OST for pond scale |
+| Sound | BGM3 | OST for forest scale |
+| Sound | BGM4 | OST for city scale |
+| Sound | BGM5 | OST for continental scale |
 
 <!-- ## Community Engagement -->
 
 ## Development Pipeline
+
+**TBD**
 
 <!-- ## Risks -->
 
@@ -113,7 +209,22 @@ font, colors, layout, animations, interactions
 
 ## Team and Budget
 
+Jeremy Ng
+- Producer
+- Game Designer
+- Game Programmer
+- Game Tester
+
+Budget
+- [FEEL](https://assetstore.unity.com/packages/tools/particles-effects/feel-183370) - $30.20
+
 ## Schedule
+
+1. Planning and Ideation: `2026-04-20` to `2026-05-04` (2 weeks)
+2. Pre-Production: `2026-05-04` to `2026-06-01` (1 month)
+3. Production: `2026-06-01` to `2026-07-27` (2 months)
+4. Testing and QA: `2026-07-27` to `2026-08-24` (1 month)
+5. Post-Production: `2026-08-24` to `2026-12-31` (until end of year)
 
 ## References
 
