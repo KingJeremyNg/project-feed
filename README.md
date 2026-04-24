@@ -67,7 +67,7 @@ Different levels of scale according to size of main character. Ranges to microsc
 Alien-like entity that grow whenever it consumes.  
 <img src="./Media/parasyte-the-maxim-alien.png" width="50%"><img src="./Media/blob.jpg" width="26%">
 <img src="./Media/venom.avif" width="50%"><img src="./Media/alien-invasion-rpg.webp" width="50%">
-<img src="./Media/carrion.jpg" width="50%">
+<img src="./Media/carrion.jpg" width="50%"><img src="./Media/katamari_damacy_ball.png" width="50%">
 
 ### User Interface Style
 
@@ -94,6 +94,7 @@ A spore from outer space drops onto earth. Upon landing, it hatches into a micro
 
 ## Screens, UI, UX
 
+**TBD**  
 <!-- 
 A UI that evolves with the main character. Since the character starts from non-threatening and progresses to apocalyptic, the UI should follow that. As for the style, currently it will be minimalistic. It must display size scale, time, and what can be eaten.
 font, colors, layout, animations, interactions  
@@ -126,7 +127,7 @@ Optional costmetic DLC and soundtrack.
 | Sound | Munch | SFX for eating very small organisms |
 | Sound | Crunch | SFX for eating smaller organisms |
 | Sound | Chomp | SFX for eating slightly smaller organisms |
-| Sound | Hit | SFX for  |
+| Sound | Hit | SFX for taking damage |
 | Sound | Bone Break | Occasional SFX for eating humans/animals |
 | Sound | Wood Break | SFX for eating trees or wooden objects/structures |
 | Sound | Concrete Break | SFX for eating buildings |
@@ -137,7 +138,7 @@ Optional costmetic DLC and soundtrack.
 | :----: | :---: | :---- |
 | Background | Microscopic Background | Something to visualize the space. Possibly a solid background color or a leaf under a microscope |
 | Model | Acanthamoeba | Looks like a slime. Size is ~12-40μm |
-| Model | Bdelloid rotifer | Animal with chainsaw-like mouth. Size is ~150 to 700μm |
+| Model | Bdelloid Rotifer | Animal with chainsaw-like mouth. Size is ~150 to 700μm |
 | Sound | Rotifer Sound | Chainsaw-like SFX in water |
 | Model | Water flea | Looks like a flea. Size is ~1-5mm |
 | Sound | Water flea Strike | A kicking motion SFX to pull food into mouth |
