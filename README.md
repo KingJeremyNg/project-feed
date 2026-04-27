@@ -90,7 +90,11 @@ A spore from outer space drops onto earth. Upon landing, it hatches into a micro
 
 ## Core Loop
 
+### General Gameplay
 <img src="./Media/core_loop.png" width="100%">
+
+### World Scale
+<img src="./Media/core_loop2.png" width="100%">
 
 ## Screens, UI, UX
 
@@ -132,53 +136,98 @@ Optional costmetic DLC and soundtrack.
 | Sound | Wood Break | SFX for eating trees or wooden objects/structures |
 | Sound | Concrete Break | SFX for eating buildings |
 | Sound | Metal Break | SFX for eating cars, military vehicles, other other metal objects |
+| Sound | Geological Groan | Low-frequency SFX when monster interacts with mountains |
 
 ### Microscopic Environment
 | Category | Asset | Description |
 | :----: | :---: | :---- |
 | Background | Microscopic Background | Something to visualize the space. Possibly a solid background color or a leaf under a microscope |
-| Model | Acanthamoeba | Looks like a slime. Size is ~12-40μm |
-| Model | Bdelloid Rotifer | Animal with chainsaw-like mouth. Size is ~150 to 700μm |
+| Model | Acanthamoeba | Neutral. Looks like a slime. Size is ~12-40μm |
+| Model | Bdelloid Rotifer | Animal with chainsaw-like mouth. Size is ~150-700μm |
 | Sound | Rotifer Sound | Chainsaw-like SFX in water |
 | Model | Water flea | Looks like a flea. Size is ~1-5mm |
-| Sound | Water flea Strike | A kicking motion SFX to pull food into mouth |
+| Sound | Water flea Strike | A kicking motion SFX to pull food/prey into mouth |
 
 ### Pond Environment
 | Category | Asset | Description |
 | :----: | :---: | :---- |
 | Background | Freshwater Background | Dark blue background to mimic a pond |
 | Terrain | Freshwater Environment | Watery environment on the surface |
+| Model | Lily Pad | Pond prop |
 | Sound | Water Droplet | General SFX for movement in water with some variation |
-| Model | Mosquito Larvae | Neutral animal. Size is about ~1 to 1.5cm |
-| Model | Tadpole | Neutral animal. Size is about ~1 to 5cm |
-| Model | Mosquito Fish | Preys on mosquito larvae. Size is about ~2.5 to 7cm
-| Model | Giant Water Bug | Size is about ~5 to 7.5cm |
+| Sound | Water Splash | General SFX for movement in water with some variation |
+| Model | Mosquito Larvae | Neutral animal. Size is about ~1-1.5cm |
+| Model | Tadpole | Neutral animal. Size is about ~1-5cm |
+| Model | Mosquito Fish | Preys on mosquito larvae. Size is about ~2.5-7cm
+| Model | Giant Water Bug | Size is about ~5-7.5cm |
 | Sound | Giant Water Bug Strike | SFX for Giant Water Bug attack with front limbs |
-| Model | Frog | Size is about ~6cm to 13cm |
-| Model | Channel Catfish | Biggest monster of the pond. Size is about ~30 to 60cm |
+| Model | Frog | Extends tongue to attack and feed. Size is about ~6cm-13cm |
+| Sound | Frog Ribbit | Occassional SFX for frog appearance |
+| Sound | Frog Tongue Attack | Whipping SFX for frog tongue attack |
+| Model | Channel Catfish | Biggest monster of the pond. Size is about ~30-60cm |
+| Sound | Catfish Gulp | SFX for catfish swallowing action |
 
 ### Forest Environment
-**TBD**
 | Category | Asset | Description |
 | :----: | :---: | :---- |
-| Model |  |  |
+| Terrain | Forest Floor | Grassy green forest floor |
+| Terrain | Pond | Original starting point for player reference |
+| Model | Tree | Tree prop with variations |
+| Model | Bush | Bush prop with variations |
+| Model | Berry Bush | Bush prop to attract birds and bears |
+| Model | Giant Slug | Neutral slow moving starter prey. Size is ~25–30cm |
+| Model | Garter Snake | Mid-tier predator. Size is ~45–100cm |
+| Sound | Snake Strike | SFX for snake lunge |
+| Sound | Hiss | Ambient SFX for snake presence and movement |
+| Model | Red Fox | Higher-tier predator/prey. Size is ~45–90cm. Very agile |
+| Sound | Red Fox Bark | Barking sound |
+| Model | Whitetail Deer Male | Deer with antlers and typically alone. More aggressive. Size is ~1.5–2m |
+| Model | Whitetail Deer Female | No antlers, slightly smaller than male. Travels in packs and are more avoidant. Size is ~1.5–2m |
+| Sound | Deer Headbutt Sound | SFX for deer attack |
+| Model | Black Bear | Apex predator of the forest. Size is ~1.2-2m |
+| Sound | Bear Swipe | Bear attack SFX for claw strike |
+| Sound | Bear Roar | Ambient bear SFX |
 
 ### City Environment
-**TBD**
 | Category | Asset | Description |
 | :----: | :---: | :---- |
+| Terrain | Pedestrian Path | Concrete sidewalk |
+| Terrain | Asphalt Road | Street |
+| Model | Building | Concrete buildings with variations |
+| Model | Traffic Light | Traffic light at intersections |
+| Model | Street Lamp | Light turns off when knocked over or eaten |
+| Model | Car | Cars with variations |
+| Sound | Car Honk | Honking SFX |
+| Model | Police Car | Faster than stardard cars. Uses sirens |
+| Sound | Police Siren | Siren SFX |
+| Model | SWAT VAN | Special forces |
+| Sound | Tire Screech | Tire screeching sound effect for fast moving vehicles |
+| Model | Human Male | Man |
+| Sound | Male Scream | Man SFX |
+| Sound | "My Leg" | Spongebob reference SFX |
+| Model | Human Female | Woman |
+| Sound | Female Scream | Woman SFX |
+| Sound | Crowd Panic | Layered audio of many footsteps and distant shouting |
 | Model | News Helicopter | Follows the monster around |
 | Sound | Helicopter Blades | SFX for spinning helicoptor blades |
 | Sound | News Broadcast | News broadcast chatter or noise |
+| Model | News Billboard | Live "Breaking News" coverage for immersion |
 
 ### Continental Environment
-**TBD**
 | Category | Asset | Description |
 | :----: | :---: | :---- |
 | Terrain | Mountain | Mountains with variants |
+| Terrain | Coastline | A border for the continent |
+| Terrain | Ocean | End of world border |
+| Terrain | Tectonic Plate Cracks | Visual fissures that appear on the ground as monster moves |
+| Model | Skyscraper Cluster | Cities look like lego blocks at this scale |
 | Model | B2 Bomber | Nuclear bomber |
+| Sound | Sonic Boom | SFX for movement that breaks sound barrier |
 | Sound | Nuclear Drop | SFX of a dropping nuke |
-| Sound | Nuclear Explosion SFX | Boom
+| Sound | Nuclear Explosion | Boom |
+| Sound | Distant Artillery | SFX for global artillery |
+| Terrain | Crater | Appears after nuke or eating a mountain |
+| Model | Cloud | Volumetric clouds |
 
 ### Shaders
 | Category | Asset | Description |
@@ -202,7 +251,9 @@ Optional costmetic DLC and soundtrack.
 
 **TBD**
 
-<!-- ## Risks -->
+## Risks
+
+Project relies heavily on professional art and sound. Consider finding collaborators early.
 
 <!-- ## Integration of Feedback -->
 
