@@ -9,6 +9,7 @@ Project Feed is an incremental action simulation where you navigate a food chain
     * [High Level Vision](#high-level-vision)
     * [Aesthetics](#aesthetics)
     * [Art Style / Theme](#art-style--theme)
+    * [The Monster](#the-monster)
     * [Story](#story)
     * [Storyboard](#storyboard)
     * [Core Loop](#core-loop)
@@ -48,6 +49,7 @@ Project Feed is an incremental action simulation where you navigate a food chain
 - The pace and average playtime of a successful run must be defined (for now about 30 minutes). Vampire survivors feature 30 minute runs with a fast mode to bring it down to 15.  
 - The UI must be minimalistic so that the player can focus on the rhythm and movement, of hunting or fleeing.
 - As you get massive, consumption becomes passive so that the player can have a movement of "zen" to enjoy the destruction.
+- Similar to Feeding Frenzy, controls will be primarily mouse/joystick movement only where there is a "leading" head. This is to minimize the barrier to entry and allowing players to easily understand.
 
 ## Art Style / Theme
 
@@ -74,19 +76,21 @@ Alien-like entity that grow whenever it consumes.
 UI style will be minimalistic to increase player immersion and direct focus onto the game world.  
 <img src="./Media/hollow-knight-boss.jpg" width="50%"><img src="./Media/a-short-hike-interaction.png" width="50%">
 
+## The Monster
+
+Current idea in mind for my monster is inspired by slime mold. It has alien-like movement with the voracity that I am looking for. Particularly for a game design approach, it wont be branching and it will feature a single head with a mouth for biting/chomping onto things.  
+<img src="./Media/slime_mold_lifecycle.jpeg" width="42%"><img src="./Media/A-slime-mold-searching-for-food.-GIF-via-Heather-Barnett..gif" width="57%">
+
 ## Story
 
 A spore from outer space drops onto earth. Upon landing, it hatches into a microscopic alien entity. Play as this entity and eat other organisms to grow bigger. Eventually big enough to consume Earth and start releasing spores back out to space, starting the life cycle once again.  
 
 ## Storyboard
 
-**TBD**
-<!-- <img src="./Media/storyboard1.png" width="100%">
-<img src="./Media/storyboard2.png" width="100%">
-<img src="./Media/storyboard3.png" width="100%">
-<img src="./Media/storyboard4.png" width="100%">
-<img src="./Media/storyboard5.png" width="100%">
-<img src="./Media/storyboard6.png" width="100%"> -->
+make a pencil sketch. do not include technical details or names.  
+<img src="./Media/storyboard1.png" width="50%"><img src="./Media/storyboard2.png" width="50%">
+<img src="./Media/storyboard3.png" width="50%"><img src="./Media/storyboard4.png" width="50%">
+<img src="./Media/storyboard5.png" width="50%"><img src="./Media/storyboard6.png" width="50%">
 
 ## Core Loop
 
