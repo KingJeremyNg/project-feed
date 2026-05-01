@@ -36,7 +36,7 @@ Project Feed is an incremental action simulation where you navigate a food chain
 
 - The act of eating must feel tactile and satisfying. This is emphasized through distinct sound layers that shifts from high pitch towards deep rumbles as you grow in size.
 - Particle effects like debris or body parts fly off when successfully feeding to add to visual feedback.
-- The main character must display some act of swallowing, similar to Feeding Frenzy's _Gulping_.
+- The main character must display some act of swallowing, similar to Feeding Frenzy's _Gulping_.  
 <img src="./Media/feeding-frenzy-eat.gif" width="50%">
 
 ### Fantasy
@@ -90,7 +90,8 @@ A spore from outer space drops onto earth. Upon landing, it hatches into a micro
 make a pencil sketch. do not include technical details or names.  
 <img src="./Media/storyboard1.png" width="50%"><img src="./Media/storyboard2.png" width="50%">
 <img src="./Media/storyboard3.png" width="50%"><img src="./Media/storyboard4.png" width="50%">
-<img src="./Media/storyboard5.png" width="50%"><img src="./Media/storyboard6.png" width="50%">
+<img src="./Media/storyboard5.png" width="100%">
+<img src="./Media/storyboard6.png" width="100%">
 
 ## Core Loop
 
